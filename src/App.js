@@ -8,8 +8,10 @@ import TodoItem from './MyComponents/TodoItem';
 
 function App() {
   let myVariable = 345;
+  // new commit
   return (
     <>
+    
   <Header title="My Todos List " searchBar={false}/>
   <Todos/>
   <TodoItem/>

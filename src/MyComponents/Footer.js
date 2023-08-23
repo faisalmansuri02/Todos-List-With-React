@@ -1,11 +1,19 @@
 import React from 'react'
 
-const Footer = () => {
+export  const Footer = () => {
+  let  footerStyle={
+      position:"absolute",
+      top:"100vh",
+      width:"100%",
+       
+  }
   return (
-    <div>
-      Footer works!!
-    </div>
+    <footer className="bg-dark text-light py-3" style={footerStyle}>
+      <p className="text-center">
+      Copyrighgt &copy; My Todoslist.com
+      </p>
+    </footer>
   )
 }
 
-export default Footer
+// export default Footer
